@@ -1,0 +1,19 @@
+.body{
+    margin:0;
+}
+.background{
+    /* background-color:aqua; */
+    margin-top:0;
+    padding: 50px;
+    height: 100vh;
+}
+.forgotpassword{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 5rem
+}
