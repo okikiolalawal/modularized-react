@@ -33,14 +33,7 @@ const DashBoard = () => {
         </div>
         <div className='p-1 fs-5 text-white'>My Profile</div>
       </div>
-      {/* <div className="col-3 mx-auto mb-3 p-3">
-        <div className="bg-success border rounded-3 mb-3">
-          <div className="p-3">
-            <h5 className="text-white">No Of students you in our school</h5>
-            <h5 className="text-center text-white">4</h5>
-          </div>
-        </div>
-      </div> */}
+      
       <div
         className={`mx-auto col-10 p-3 border rounded-3 bg-light mb-5 shadow-lg`}
       >
@@ -71,7 +64,7 @@ const DashBoard = () => {
               <td>Lawal</td>
               <td>JSS1</td>
               <td>
-                <Link href={"/"} className="btn btn-success btn-sm">
+                <Link href={"/"} className="btn btn-primary btn-sm">
                   Details
                 </Link>
               </td>
@@ -82,7 +75,7 @@ const DashBoard = () => {
               <td>Lawal</td>
               <td>JSS3</td>
               <td>
-                <Link href={"/"} className="btn btn-success btn-sm">
+                <Link href={"/"} className="btn btn-primary btn-sm">
                   Details
                 </Link>
               </td>
@@ -93,7 +86,7 @@ const DashBoard = () => {
               <td>Lawal</td>
               <td>SSS3</td>
               <td>
-                <Link href={"/"} className="btn btn-success btn-sm">
+                <Link href={"/"} className="btn btn-primary btn-sm">
                   Details
                 </Link>
               </td>
@@ -104,7 +97,7 @@ const DashBoard = () => {
               <td>Lawal</td>
               <td>SSS2</td>
               <td>
-                <Link href={"/"} className="btn btn-success btn-sm">
+                <Link href={"/"} className="btn btn-primary btn-sm">
                   Details
                 </Link>
               </td>

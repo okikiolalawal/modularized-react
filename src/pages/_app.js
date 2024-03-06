@@ -1,5 +1,5 @@
 // import '@/styles/globals.css'
-// import "../../node_modules/bootstrap/dist/css/bootstrap.css"
+import "../../node_modules/bootstrap/dist/css/bootstrap.css"
 
 import reduxreducer from "@/redux/reduxreducer";
 import { configureStore } from "@reduxjs/toolkit";
